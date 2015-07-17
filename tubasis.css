@@ -24,6 +24,10 @@ header .field-name-taxonomy-vocabulary-2 .field-label { /* hide label */
 }
 header .field-name-taxonomy-vocabulary-2 .field-item {
     float: right;
+    background: #eee;
+    padding: 4px 9px;
+    border-radius: 4px;
+    color: #383838;
 }
 
 /* label and content should be in one line */
