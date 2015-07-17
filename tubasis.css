@@ -39,7 +39,7 @@ header .field-name-field-datetime .field-items .field-item
     display: inline;
 }
 
-#preface-area p {
+#preface-area .block p {
     margin-bottom: 0px;
 }
 #preface-area .block {
