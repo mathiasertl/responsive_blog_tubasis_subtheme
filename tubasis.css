@@ -42,7 +42,7 @@ header .field-name-field-datetime .field-items .field-item
 @media screen and (max-width: 960px) {
 
 #main-menu > ul.menu a {
-    padding: 0 0.5em;
+    padding: 0 0.5em !important;
 }
 
 }
@@ -60,7 +60,7 @@ header .field-name-field-datetime .field-items .field-item
     text-align: left;
     width: 128px; /* half size for small screens */
 }
-#site-logo .social-profile {
+#header .social-profile {
     top: 16px !important; /* vertically align social buttons */
 }
 }
