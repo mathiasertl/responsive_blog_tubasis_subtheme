@@ -14,9 +14,19 @@ header .submitted { /* "Posted on..." */
     display: inline-block;
 }
 
-header .field-name-taxonomy-vocabulary-2 .field-label {
+/* Taxonomy/Tags next to "Submitted" */
+header .field-name-taxonomy-vocabulary-2,
+header .field-name-taxonomy-vocabulary-2 .field-items {
+    display: inline;
+}
+header .field-name-taxonomy-vocabulary-2 .field-label { /* hide label */
     display: none;
 }
+header .field-name-taxonomy-vocabulary-2 .field-item {
+    float: right;
+}
+
+/* label and content should be in one line */
 header .field-name-field-datetime .field-label,
 header .field-name-field-datetime .field-items,
 header .field-name-field-datetime .field-items .field-item
