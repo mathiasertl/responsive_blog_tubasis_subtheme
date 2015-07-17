@@ -39,6 +39,13 @@ header .field-name-field-datetime .field-items .field-item
     display: inline;
 }
 
+#preface-area p {
+    margin-bottom: 0px;
+}
+#preface-area .block {
+    margin-bottom: 4px;
+}
+
 @media screen and (max-width: 1060px) {
 
 #main-menu > ul.menu a {
