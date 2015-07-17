@@ -52,6 +52,10 @@ header .field-name-field-datetime .field-items .field-item
     padding-top: 6px;
 }
 
+footer #footer-area {
+    display: none; /* Hide the footer area, we have no blocks there */
+}
+
 @media screen and (max-width: 1060px) {
 
 #main-menu > ul.menu a {
