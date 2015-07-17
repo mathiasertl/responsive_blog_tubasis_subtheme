@@ -44,4 +44,16 @@ header .field-name-field-datetime .field-items .field-item
 .tinynav {
     color: #FC0FC0;
 }
+
+/* header is smaller */
+#site-logo {
+    display: inline;
+}
+#site-logo img {
+    text-align: left;
+    width: 128px; /* half size for small screens */
+}
+#site-logo .social-profile {
+    top: 16px !important; /* vertically align social buttons */
+}
 }
