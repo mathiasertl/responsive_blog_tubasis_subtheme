@@ -10,6 +10,14 @@
     padding-bottom: 0 !important;
 }
 
+header .submitted { /* "Posted on..." */
+    display: inline-block;
+}
+
+header .field-name-taxonomy-vocabulary-2 {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
 
 .tinynav {
