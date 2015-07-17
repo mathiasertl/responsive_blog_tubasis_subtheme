@@ -90,7 +90,10 @@
         <span class="submitted">
         <?php print t('Posted on') . ' ' . $date; ?>
         </span>
-      <?php endif; ?>
+      <?php endif;
+        print render($content['taxonomy_vocabulary_2']);
+        print render($content['field_datetime']);
+      ?>
 
     <?php if (!$page): ?>
       </header>
@@ -99,6 +102,8 @@
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // Hide comments and links now so that we can render them later.
+      hide($content['taxonomy_vocabulary_2']);
+      hide($content['field_datetime']);
       hide($content['comments']);
       hide($content['links']);
       print render($content);
