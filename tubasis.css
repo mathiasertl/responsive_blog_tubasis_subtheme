@@ -39,7 +39,7 @@ header .field-name-field-datetime .field-items .field-item
     display: inline;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1060px) {
 
 #main-menu > ul.menu a {
     padding: 0 0.5em !important;
