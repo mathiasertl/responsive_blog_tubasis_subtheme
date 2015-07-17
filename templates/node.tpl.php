@@ -88,7 +88,7 @@
 
       <?php if ($display_submitted): ?>
         <span class="submitted">
-        <?php print t('Posted on') . ' ' . $date; ?>
+        <?php print t('Posted on') . ' ' . format_date($created, 'short'); ?>
         </span>
       <?php endif;
         print render($content['taxonomy_vocabulary_2']);
