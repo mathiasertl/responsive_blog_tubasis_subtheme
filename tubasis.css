@@ -9,3 +9,10 @@
 #header #site-logo {
     padding-bottom: 0 !important;
 }
+
+@media screen and (max-width: 767px) {
+
+.tinynav {
+    color: #FC0FC0;
+}
+}
