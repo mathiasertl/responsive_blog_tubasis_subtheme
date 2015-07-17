@@ -17,6 +17,12 @@ header .submitted { /* "Posted on..." */
 header .field-name-taxonomy-vocabulary-2 .field-label {
     display: none;
 }
+header .field-name-field-datetime .field-label,
+header .field-name-field-datetime .field-items,
+header .field-name-field-datetime .field-items .field-item
+{
+    display: inline;
+}
 
 @media screen and (max-width: 767px) {
 
