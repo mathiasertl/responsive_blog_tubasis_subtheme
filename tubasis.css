@@ -14,7 +14,7 @@ header .submitted { /* "Posted on..." */
     display: inline-block;
 }
 
-header .field-name-taxonomy-vocabulary-2 {
+header .field-name-taxonomy-vocabulary-2 .field-label {
     display: none;
 }
 
