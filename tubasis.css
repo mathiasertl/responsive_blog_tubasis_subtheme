@@ -16,7 +16,7 @@
 
 /* Taxonomy/Tags next to "Submitted" */
 .content .field-name-taxonomy-vocabulary-2,
-.content .field-name-taxonomy-vocabulary-2 .field-items,
+.content .field-name-taxonomy-vocabulary-2 .field-items
 {
     display: inline;
 }
