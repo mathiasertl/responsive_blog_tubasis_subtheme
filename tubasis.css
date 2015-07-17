@@ -10,7 +10,7 @@
     padding-bottom: 0 !important;
 }
 
-header .submitted { /* "Posted on..." */
+.submitted { /* "Posted on..." */
     display: inline-block;
 }
 
