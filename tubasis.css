@@ -39,11 +39,17 @@ header .field-name-field-datetime .field-items .field-item
     display: inline;
 }
 
+/* The preface (The "mission" displayed on the front page) needs less padding */
 #preface-area .block p {
     margin-bottom: 0px;
+    margin-top: 6px;
 }
 #preface-area .block {
     margin-bottom: 4px;
+}
+
+#main {
+    padding-top: 6px;
 }
 
 @media screen and (max-width: 1060px) {
